@@ -1,0 +1,211 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  font-family: 'Poppins', sans-serif;
+}
+
+header, main{
+  /* width: 1200px; */
+  width: 75em;
+  margin: 0 auto;
+}
+
+.section{
+  margin-top: 100px;
+}
+
+/* ---------------------------------
+header-section styles
+------------------------------------ */
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.nav{
+  display: flex;
+  gap: 34px;
+  align-items: center;
+  font-weight: 600;
+  font-size: 16px;
+}
+.nav ul{
+  display: flex;
+  list-style-type: none;
+  gap: 34px;
+}
+
+@media screen and (max-width:576px) {
+  main{
+    width: 576px;
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-around;
+  }
+}
+/* ---------------------------------
+banner-section styles
+------------------------------------ */
+
+.banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 133px;
+}
+
+.banner-info h1{
+  font-weight: 700;
+  font-size: 52px;
+}
+
+.banner-info p{
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.btn{
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  margin-top: 20px;
+}
+.btn button{
+  font-weight: 700;
+  font-size: 16px;
+  padding: 10px 24px;
+  background-color: #E02C6D;
+  border-radius: 41px;
+  border: 0;
+  color: white;
+}
+
+
+/* main---------------------------- */
+/* ---------------------------------
+sponsor-section styles
+------------------------------------ */
+
+.sponsor-container{
+  width: 1110px;
+  display: flex;
+  padding: 41px 62px;
+  gap: 60px;
+  align-items: center;
+  margin: 0 auto;
+  border: 8px solid black;
+  border-left: none;
+}
+
+/* ---------------------------------
+collectin-section styles
+------------------------------------ */
+.populer-collection{
+  width: 1047px;
+  margin: 0 auto;
+}
+.populer-collection .section-title{
+  font-weight: 600;
+  font-size: 28px;
+  text-align: center;
+}
+
+.collection-card-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 30px;
+}
+.card img{
+  width: 300px;
+  height: 256px;
+}
+
+.card{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 17px 14px;
+  border-radius: 5px;
+}
+
+.card-title{
+  font-weight: 500;
+  font-size: 28px;
+  margin-bottom: 6px;
+}
+
+.price{
+  font-weight: 400;
+  font-size: 24px;
+}
+.rating-container{
+  margin-bottom: 6px;
+}
+.fa-star{
+  color: #FB8200;
+}
+.empty{
+  color: grey;
+}
+
+.card-info, .rating{
+  font-weight: 700;
+  font-size: 14px;
+  color: #787885;
+}
+
+.see-more{
+  text-align: end;
+  margin-top: 50px;
+}
+.see-more a{
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+  color: rgba(224, 44, 109, 0.87);
+}
+
+
+/* ---------------------------------
+collectin-section styles
+------------------------------------ */
+.join-now{
+  margin: 0 auto;
+  width: 1110px;
+
+}
+.join-now-container img{
+  width: 404px;
+  height: 270px;
+}
+.join-now-container{
+  display: flex;
+  gap: 96px;
+  align-items: center;
+}
+
+.join-now-info h2{
+  font-weight: 700;
+  font-size: 38px;
+  margin-bottom: 16px;
+}
+
+.join-now-info p{
+  font-weight: 700;
+  font-size: 16px;
+  color: #6C6C6C;
+  width: 570px;
+}
+
+
